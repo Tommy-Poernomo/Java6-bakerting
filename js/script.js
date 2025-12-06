@@ -1,7 +1,7 @@
 
         // --- LOGIKA UTAMA ---
         function determineWinner(playerChoice, computerChoice) {
-            // Logika sesuai request Anda
+            // Logika menentukan pemenang
             if (playerChoice === computerChoice) {
                 return "Seri! (It's a tie!)";
             }
@@ -17,8 +17,8 @@
 
         // --- INTERAKSI UI ---
         function startGame() {
-            // 1. Input Nama
-            let playerName = prompt("Masukkan nama Anda:", "Player 1");
+            // 1. Input Nama pemain
+            let playerName = prompt("Ketik nama Anda:", "Player 1");
             if (!playerName) playerName = "Player 1"; // Default jika kosong
 
             // 2. Input Pilihan
